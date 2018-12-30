@@ -31,7 +31,7 @@ function addButton(el) {
 function check_page() {
     var p = document.querySelector(".hdtb-msel"); //google search tab selector
     
-    if (p != null && p.innerText === "Images") { //if tab selector exists and 'Images' selected
+    if (p != null && p.innerText === "Images" || "Bilder") { //if tab selector exists and 'Images' selected
         console.info("google images search detected - enabling 'view image' buttons");
         
         var targetNode = document.getElementById("gsr");
